@@ -34,7 +34,7 @@
       <label for="contactno">Contact Number :</label>
       <input class="form-control" type="tel" name="contactnumber" id="contactnumber"
         [(ngModel)]="employeeDetails.contactNumber" #contactnoField="ngModel" required valueAsNumber>
-      <div *ngIf="contactnoField.errors?.['required'] && form.submitted">Enter your contact number</div>
+      <div class="alert alert-danger"  *ngIf="contactnoField.errors?.['required'] && form.submitted">Enter your contact number</div>
     </div>
     <br>
 

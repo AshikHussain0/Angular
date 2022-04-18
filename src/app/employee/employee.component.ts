@@ -33,7 +33,7 @@ export class EmployeeComponent implements OnInit {
    }
 
   ngOnInit(): void {
-     this.qualification = ["Btech", "SSC", "HSC"]
+     this.qualification = ["Bachelors", "SSC", "HSC"]
      this.experience = ["Fresher", "1","2","2+"];
      this.codingLanguages = ["C/C++", "Java","C#", "PHP", "Python"]
   }
