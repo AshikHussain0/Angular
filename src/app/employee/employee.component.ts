@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {  FormArray, FormControl, NgForm } from '@angular/forms';
+import { NgForm } from '@angular/forms';
 import { EmployeeDetails } from './employee.model';
 
 
@@ -9,9 +9,6 @@ import { EmployeeDetails } from './employee.model';
   styleUrls: ['./employee.component.css']
 })
 export class EmployeeComponent implements OnInit {
-  // public qualification:string[];
-
-
 
  employeeDetails : EmployeeDetails = {
    firstName : '',
